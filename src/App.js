@@ -98,7 +98,7 @@ class App extends Component {
         </div>
 
         <div className="row">
-            {animals.map(({ id, name, image, clicked }) =>
+            {cars.map(({ id, name, image, clicked }) =>
                 <Card
                     key={id}
                     id={id}
