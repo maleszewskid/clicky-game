@@ -1,5 +1,8 @@
 import React from "react";
-import "./style.css";
+
+// {message}
+// SCORE: {score}
+// TOP SCORE: {highScore}
 
 function NavBar({ message, score, highScore }) {
     return (
@@ -31,4 +34,6 @@ function NavBar({ message, score, highScore }) {
         </div>
     );
 }
+
 export default NavBar;
+

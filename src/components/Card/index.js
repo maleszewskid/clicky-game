@@ -1,5 +1,4 @@
 import React from "react";
-import "./style.css"
 
 function Card({ clickHandler, id, image, name }) {
     return (
