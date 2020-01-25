@@ -1,9 +1,5 @@
 import React from "react";
-
-// {message}
-// SCORE: {score}
-// TOP SCORE: {highScore}
-
+import "./style.css"
 function NavBar({ message, score, highScore }) {
     return (
         <div className="top-nav container-fluid">
