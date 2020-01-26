@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Card from "./components/Card";
 import NavBar from "./components/NavBar";
 import cars from "./cars.json";
-
 class App extends Component {
 
     constructor() {
@@ -16,7 +15,6 @@ class App extends Component {
             message: ""
         };
     }
-
 
     handleSaveClick = id => {
 
@@ -39,13 +37,11 @@ class App extends Component {
         }
     };
 
-
     randomizecars = cars => {
         cars.sort((a, b) => {
             return 0.5 - Math.random();
         });
     };
-
 
     handleCorrectClick = () => {
         this.setState({ isGuessCorrect: true });
@@ -65,7 +61,6 @@ class App extends Component {
         }
     };
 
-
     handleIncorrectClick = () => {
         this.setState({
             message: "INCORRECT! TRY AGAIN!",
@@ -74,7 +69,6 @@ class App extends Component {
         this.resetGame();
     };
 
-
     resetGame = id => {
         var cars = this.state.cars;
         for (let i = 0; i < cars.length; i++) {
@@ -82,8 +76,6 @@ class App extends Component {
         }
         this.setState({ score: 0 });
     };
-
-
     render() {
         var { message, score, cars, highScore } = this.state;
         return (             
@@ -96,7 +88,6 @@ class App extends Component {
                 message={message}
             />
         </div>
-
         <div className="row">
             {cars.map(({ id, name, image, clicked }) =>
                 <Card
@@ -112,5 +103,4 @@ class App extends Component {
         );
     }
 }
-
 export default App;
