@@ -13,5 +13,4 @@ function Card({ clickHandler, id, image, name }) {
         </div>
     );
 }
-
 export default Card;

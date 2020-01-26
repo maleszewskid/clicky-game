@@ -30,6 +30,5 @@ function NavBar({ message, score, highScore }) {
         </div>
     );
 }
-
 export default NavBar;
 
