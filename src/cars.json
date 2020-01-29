@@ -2,102 +2,102 @@
     {
       "id": 1,
       "name": "bmw",
-      "image": "../img/bmw.jpg"
+      "image": "./img/bmw.jpg"
     },
     {
         "id": 2,
         "name": "mercedes",
-        "image": "../img/mercedes.jpg"
+        "image": "./img/mercedes.jpg"
       },
       {
         "id": 3,
         "name": "audi",
-        "image": "../img/audi.jpg"
+        "image": "./img/audi.jpg"
       },
       {
         "id": 4,
         "name": "cadillac",
-        "image": "../img/cadillac.jpg"
+        "image": "./img/cadillac.jpg"
       },
       {
         "id": 5,
         "name": "honda",
-        "image": "../img/honda.jpg"
+        "image": "./img/honda.jpg"
       },
       {
         "id": 6,
         "name": "jeep",
-        "image": "../img/jeep.jpg"
+        "image": "./img/jeep.jpg"
       },
       {
         "id": 7,
         "name": "hummer",
-        "image": "../img/hummer.jpg"
+        "image": "./img/hummer.jpg"
       },
       {
         "id": 8,
         "name": "tesla",
-        "image": "../img/tesla.jpg"
+        "image": "./img/tesla.jpg"
       },
       {
         "id": 9,
         "name": "dodge",
-        "image": "../img/dodge.jpg"
+        "image": "./img/dodge.jpg"
       },
       {
         "id": 10,
         "name": "acura",
-        "image": "../img/acura.jpg"
+        "image": "./img/acura.jpg"
       },
       {
         "id": 11,
         "name": "fiat",
-        "image": "../img/fiat.jpg"
+        "image": "./img/fiat.jpg"
       },
       {
         "id": 12,
         "name": "voltswagen",
-        "image": "../img/voltswagen.jpg"
+        "image": "./img/voltswagen.jpg"
       },
       {
         "id": 13,
         "name": "toyota",
-        "image": "../img/toyota.jpg"
+        "image": "./img/toyota.jpg"
       },
       {
         "id": 14,
         "name": "bentley",
-        "image": "../img/bentley.jpg"
+        "image": "./img/bentley.jpg"
       },
       {
         "id": 15,
         "name": "gmc",
-        "image": "../img/gmc.jpg"
+        "image": "./img/gmc.jpg"
       },
       {
         "id": 16,
         "name": "ford",
-        "image": "../img/ford.jpg"
+        "image": "./img/ford.jpg"
       },
       {
         "id": 17,
         "name": "nissan",
-        "image": "../img/nissan.jpg"
+        "image": "./img/nissan.jpg"
       },
       {
         "id": 18,
         "name": "bugati",
-        "image": "../img/bugati.jpg"
+        "image": "./img/bugati.jpg"
       },
       {
         "id": 19,
         "name": "mazda",
-        "image": "../img/mazda.jpg"
+        "image": "./img/mazda.jpg"
       },
       {
         "id": 20,
         "name": "chevy",
-        "image": "../img/chevy.jpg"
+        "image": "./img/chevy.jpg"
       }
   ]
   
