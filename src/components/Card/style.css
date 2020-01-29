@@ -6,9 +6,12 @@
     box-shadow: 0 1px 2px #999, 0 1px 2px #999;
   }
    img {
-     width: 400px;
-     height: 400px;
+     width: 415px;
+     height: 300px;
    }
    body{
      background-image: url(https://i.pinimg.com/originals/3d/e4/20/3de4208a99cfe2be660278747391ff5e.jpg);
+   }
+   div.row{
+    padding-left: 150px;
    }
